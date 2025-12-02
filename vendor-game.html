@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <title>Net Lizard</title>
+    <style type="text/css">
+        body {max-width: 1500px; font-family: Tahoma, Arial; font-size: 13px; background: #FFFFFF; color: ##33EEAA; margin: auto;}
+        a {color: #7F632A; text-decoration: none;}
+        a:hover {color: #990000; text-decoration: underline; }
+        img {border: 0;}
+        form {margin: 0;}
+        hr {border: 0; border-top: 1px dotted #B8E382; margin: 3px 0;}
+        input, textarea, select {margin: 1px 0; border: 1px solid #E6E6E6; background: #FFFFFF; color: #757575;}
+        input:focus, textarea:focus, select:focus {border: 1px solid #D3D3D3;}
+        .contur {border: 1px solid #B59E51; border-top: 0;}
+        .title {background: url(css/thm/6/konon.gif) repeat-x top left #7c5b3e; padding: 3px 2px; margin: 2px 0; color: #FFFFFF; text-align: center; font-weight: bold;}
+        .pic {background: #EEDEBD;color: #000000; text-align: center; padding: 4px 0 2px 0; margin: 2px 2px 2px 0;}
+        .main {color: #000000; background-color: #EEDEBD; text-align: left; padding: 2px;}
+        .main a:hover {background: #EAF4B0;}
+        .komm1 {background: #EEDEBD; border: solid 1px #B59E51;}
+        .komm2 {background: #EEDEBD; border: solid 1px #B59E51;}
+        .komm1 a, .komm2 a {color: #3c2515;}
+        .komm1 a:hover, .komm2 a:hover {color: #990000; text-decoration: underline; background-color: #EEDEBD;}
+        .komm1, .komm2 {margin: 2px 0; padding: 2px 2px 2px 4px; }
+        .footer {background: url(css/thm/6/footer.gif) repeat-x top left #f3eae0; text-align: center; color: #3c2515; padding: 2px; border-bottom: 1px solid brown; margin: 1px 0 0 0;}
+        .footer a {color: #3c2515;}
+        .footer a:hover{color: #EBF4D5; background: none;}
+        .footer img {margin: 2px 0 0 0;}
+    </style>
+    <script src="js/common.js"></script>
+    <script src="js/vendor_game/vendor_games.js"></script>
+    <script src="js/vendor_game/index.js"></script>
+</head>
+<body>
+
+<div class="contur"><div class="title">Net Lizard</div><div class="main">
+    <div class="list"></div>
+    <div class="komm1">
+        <div class="paged"></div>
+        <form method="get" action="vendor-game.html">Стр. <input type="text" name="page" size="2"/> <select name="size" class="size"></select><input type="hidden" name="vendor"/><input type="button" value=">>" onclick="Submit()"/></form></div>
+</div>
+    <div class="footer">
+        <a href="javascript:BackToVendor()">На главную</a><br/><a href="http://mobtop.ru/in/728"><img src="img/728.gif" alt="MobTop"></a><a href="http://waplog.net/ru/c.shtml?21492"><img src="img/21492.cnt" alt="waplog"/></a><br/></div>
+</div>
+
+</body>
+<script type="application/javascript">
+    window.onload = Init;
+</script>
+</html>
